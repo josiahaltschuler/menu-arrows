@@ -1,0 +1,7 @@
+.nav-menu li > a:after, #menu-main-menu li > a:after {
+	content: ' ▾';
+}
+
+.nav-menu li > a:only-child:after, #menu-main-menu li > a:only-child:after {
+	content: '';
+}
