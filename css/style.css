@@ -2,6 +2,10 @@
 	content: ' ▾';
 }
 
-.nav-menu li > a:only-child:after, #menu-main-menu li > a:only-child:after, .menu li li > a:after {
+.nav-menu li > a:only-child:after,
+#menu-main-menu li > a:only-child:after,
+.nav-menu li li > a:after,
+#menu-main-menu li li > a:after, 
+.menu li li > a:after {
 	content: '';
 }
