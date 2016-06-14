@@ -10,6 +10,9 @@
  */
 
 function add_menu_arrows() {	
-	wp_enqueue_style( 'menu-arrows' , plugin_dir_url(__FILE__) . 'css/style.css' );
+	wp_enqueue_style( 'menu-arrows', plugin_dir_url(__FILE__) . 'css/style.css' );
+
+	// Add Genericons, used in the main stylesheet.
+	wp_enqueue_style( 'genericons', plugin_dir_url(__FILE__) . '/genericons/genericons.css', array(), '3.4.1' );
 }
 add_action( 'wp_enqueue_scripts', 'add_menu_arrows', 11 );
